@@ -1,28 +1,3 @@
-#------------------------------------------------------------------------------
-# Import data (supress before commit)
-
-# 30 people
-# six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, 
-# STANDING, LAYING) 
-# we captured 3-axial linear acceleration and 3-axial angular velocity at a 
-# constant rate of 50Hz
-
-#For each record it is provided:
-#======================================
-
-#- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
-#- Triaxial Angular velocity from the gyroscope. 
-#- A 561-feature vector with time and frequency domain variables. 
-#- Its activity label. 
-#- An identifier of the subject who carried out the experiment.
-  
-setwd(dir()[3])
-setwd(dir()[1])
-setwd(dir()[3])
-setwd(dir()[4])
-setwd(dir()[19])
-setwd(dir()[9])
-
 library(dplyr)
 library(reshape2)
 
@@ -112,4 +87,5 @@ setwd("..")
 write.csv(DataMeanSD, "TidyData.csv")
 write.csv(DatasetSummarisedLines, "summarisedData.csv")
 
-
+# File for the submission
+write.table(DataMeanSD, file = "VMauduit.txt", row.name = FALSE)
