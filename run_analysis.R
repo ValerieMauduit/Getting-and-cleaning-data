@@ -88,4 +88,4 @@ write.csv(DataMeanSD, "TidyData.csv")
 write.csv(DatasetSummarisedLines, "summarisedData.csv")
 
 # File for the submission
-write.table(DataMeanSD, file = "VMauduit.txt", row.name = FALSE)
+write.table(DatasetSummarisedLines, file = "VMauduit.txt", row.name = FALSE)

@@ -27,11 +27,11 @@ Provided files are:
 summarise input data
 * CodeBook.md: describe the variables and dataframes
 * TidyData.csv: train and test data, merged and tidied
-* VMauduit.txt: quite the same thing than TidyData.csv, but created with write.table function
 * summarisedData.csv: summarised data: mean of each variable, for each group of
 Subject-Activity
     * columns 1 and 2 provide Subject and Activity, each other column provide 
     the means of each feature, for each group Subject-Activity
+* VMauduit.txt: quite the same thing than summarisedData.csv, but created with write.table function
 
 
 
