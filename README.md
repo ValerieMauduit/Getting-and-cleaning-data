@@ -27,14 +27,10 @@ Provided files are:
 summarise input data
 * CodeBook.md: describe the variables and dataframes
 * TidyData.csv: train and test data, merged and tidied
-* summarisedData.csv: summarised data: mean of each varaible, for each group of
+* summarisedData.csv: summarised data: mean of each variable, for each group of
 Subject-Activity
     * columns 1 and 2 provide Subject and Activity, each other column provide 
     the means of each feature, for each group Subject-Activity
-* summarisedData2.csv: summarised data in an other format: mean of each 
-varaible, for each group of Subject-Activity
-    * column 1 provide Subjects. Each block of 48 columns corresponds to one 
-    activity, and in each block, all features are listed by columns
 
 
 
